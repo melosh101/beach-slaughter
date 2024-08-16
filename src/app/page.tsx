@@ -47,7 +47,7 @@ export default function HomePage() {
       </li>
       <div className="flex min-h-screen flex-row justify-center gap-36">
         <div>
-          <li className="list-none font-bold">beached scallop</li>
+          <li className="list-none font-bold">blood stains sand</li>
           <Image
             alt="blood stains sand"
             src={"/albums/blood-stained-sand.png"}
