@@ -79,7 +79,7 @@ export default function HomePage() {
         </div>
       </div>
       <div
-        id="disc"
+        id="shows"
         className="mb-20 ml-16 mt-36 h-1 w-[90%] bg-slate-800 drop-shadow-xl"
       ></div>
       <li className="mb-4 ml-80 w-80 list-none text-4xl font-bold underline underline-offset-8">Kommende shows</li>
