@@ -82,7 +82,24 @@ export default function HomePage() {
         id="disc"
         className="mb-20 ml-16 mt-36 h-1 w-[90%] bg-slate-800 drop-shadow-xl"
       ></div>
-      <div className=""></div>
+      <li className="mb-4 ml-80 w-80 list-none text-4xl font-bold underline underline-offset-8">Kommende shows</li>
+      <div className="mt-20 grid min-h-[80%] ml-80">
+        <div className="flex flex-row">
+          <Image
+          alt="RTS"
+          src={"/RTS.jpg"}
+          height={"850"}
+          width={"460"}
+          >
+          </Image>
+          <div className="ml-4">
+            <li className="text-xl list-none text-yellow-300 font-bold">NÆSTE SHOW HOS RTS</li>
+            <br />
+            <p>vores næste show er hos RTS (Roskilde teknisk skole)</p>
+            <p>showet bliver afholdt d 16/8/2024</p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
